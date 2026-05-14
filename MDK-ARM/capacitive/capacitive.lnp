@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"capacitive\startup_stm32f103xb.o"
+"capacitive\main.o"
+"capacitive\stm32f1xx_it.o"
+"capacitive\stm32f1xx_hal_msp.o"
+"capacitive\stm32f1xx_hal_gpio_ex.o"
+"capacitive\stm32f1xx_hal_tim.o"
+"capacitive\stm32f1xx_hal_tim_ex.o"
+"capacitive\stm32f1xx_hal.o"
+"capacitive\stm32f1xx_hal_rcc.o"
+"capacitive\stm32f1xx_hal_rcc_ex.o"
+"capacitive\stm32f1xx_hal_gpio.o"
+"capacitive\stm32f1xx_hal_dma.o"
+"capacitive\stm32f1xx_hal_cortex.o"
+"capacitive\stm32f1xx_hal_pwr.o"
+"capacitive\stm32f1xx_hal_flash.o"
+"capacitive\stm32f1xx_hal_flash_ex.o"
+"capacitive\stm32f1xx_hal_exti.o"
+"capacitive\stm32f1xx_hal_uart.o"
+"capacitive\system_stm32f1xx.o"
+--strict --scatter "capacitive\capacitive.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "capacitive.map" -o capacitive\capacitive.axf
