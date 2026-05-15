@@ -165,10 +165,12 @@ https://github.com/user-attachments/assets/cde1463b-5d46-408b-880b-1346305406f7
 
 - Lớp điện môi đàn hồi, dễ nén khi chịu lực, cho phép khoảng cách giữa hai bản cực thay đổi theo lực tác động.
 #### c. Nguyên lí điện dung
-- Khi có lực tác động, lớp điện môi đàn hồi sẽ biến dạng làm cho 2 bản tụ gần nhau hơn khiến điện dung tăng. 
+- Khi có lực tác động, lớp điện môi đàn hồi sẽ biến dạng làm cho 2 bản tụ gần nhau hơn khiến điện dung tăng.
+
 $$
 C = \frac{\varepsilon S}{d}
 $$
+
 #### d. Sơ đồ đấu dây
 
 <div align="center">
