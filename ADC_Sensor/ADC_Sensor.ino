@@ -4,16 +4,16 @@
 ADCTouchSensor pressure(PA0, PA1, 150);
 
 void setup() {
-  Serial.begin(115200);           // Bắt đầu giao tiếp Serial
+  Serial.begin(115200);           
   delay(2000);
 
-  analogReadResolution(12);       // Độ phân giải ADC 12 bit
-  pressure.begin(4000);           // Lấy baseline khi KHÔNG NHẤN
+  analogReadResolution(12);       
+  pressure.begin(4000);           
 }
 
 void loop() {
-  int value = pressure.read(200); // Đọc giá trị áp lực (đã trừ baseline)
+  int value = pressure.read(200); 
 
-  Serial.println(value);          // Chỉ in số thôi
+  Serial.println(value);         
   delay(300);
 }
