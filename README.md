@@ -117,7 +117,9 @@ int ADCTouchSensor::read(unsigned samples) {
 </div>
 
 #### c. Video kết quả thử nghiệm
-<video src="image/vd1.mp4" width="100%" controls></video>
+
+https://github.com/user-attachments/assets/cde1463b-5d46-408b-880b-1346305406f7
+
 ### 2. Ứng dụng làm cảm biến xúc giác điện dung bằng RC+Timer
 #### a. Link tài liệu tham khảo: https://deepbluembedded.com/stm32-capacitive-touch-sensing-without-tsc/
 
