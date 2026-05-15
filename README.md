@@ -185,7 +185,9 @@ $$
 ##### Sự thay đổi điện dung của cảm biến được xác định gián tiếp thông qua RC + Timer
 ##### Nguyên lí hoạt động
 - Phương pháp đo dựa trên nguyên lý nạp điện của mạch RC. Với điện trở R cố định và điện dung C của cảm biến thay đổi, hằng số thời gian của mạch là:
+
 $\tau = R \cdot C$
+
 - Khi điện dung thay đổi, thời gian điện áp tại nút đo tăng từ mức thấp lên đến ngưỡng logic của vi điều khiển cũng thay đổi theo
 - Thay vì đo trực tiếp giá trị điện dung (Giá trị bé khó đo), hệ thống sẽ đo thời gian nạp RC, từ đó suy ra sự biến thiên của điện dung. Giá trị thời gian này được xem là đại lượng trung gian phản ánh mức độ biến dạng của cảm biến.
 ##### Hệ thống sử dụng hai chân GPIO của vi điều khiển STM32:
