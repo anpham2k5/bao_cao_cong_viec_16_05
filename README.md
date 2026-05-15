@@ -1,4 +1,4 @@
-# Báo cáo tiến độ nghiên cứu ngày 18/04/2026
+# Báo cáo tiến độ nghiên cứu ngày 16/05/2026
 ## A. Công việc đã làm
 - Ứng dụng làm cảm biến xúc giác điện dung dựa trên ADCTouchSensor
 - Ứng dụng làm cảm biến xúc giác điện dung bằng RC+Timer
